@@ -43,7 +43,7 @@ const handler = {
   apply: (pages, context, args) => {
     const routePages = { about: 2, works: 1, education: 1 }[args[0]];
     const searchedPage = pages.apply(context, args);
-    return searchedPage && args[1] <= routePages && args[1] > 0? searchedPage : <NotFound class="main__grid__page__content" />;
+    return searchedPage && args[1] <= routePages && args[1] > 0 ? searchedPage : <NotFound class="main__grid__page__content" />;
   }
 }
 

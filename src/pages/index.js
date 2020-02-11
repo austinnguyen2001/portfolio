@@ -114,8 +114,8 @@ const App = (props) => {
           <div>
             <aside id="note">
               <strong>Welcome to my portfolio</strong>
-              <div style={{marginTop: '1.5vmin'}}>Email: austinnguyen01@gmail.com</div>
-              <div>Discord: KyneticDerpcake#2878</div>
+              <div style={{marginTop: '1vmin'}}>Email: austinnguyen01@gmail.com</div>
+              <div>Phone: 714-497-5765</div>
             </aside>
             <section id="header__title">
               <div id="header__title__first">Austin</div>
